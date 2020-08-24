@@ -1,2 +1,9 @@
 #include <stdio.h>
 
+int main()
+{
+   char a = "Yo";
+   printf("%s whats up", a);
+ 
+   return 0;
+}
