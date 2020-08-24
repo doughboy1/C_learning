@@ -1,9 +1,15 @@
 #include <stdio.h>
 
+void yo(void);
+
 int main()
 {
-   char a = "Yo";
-   printf("%s whats up", a);
- 
+   yo();
+   
    return 0;
+}
+
+void yo(void)
+{
+   printf("Yo what's up.");
 }
