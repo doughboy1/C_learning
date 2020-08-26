@@ -39,3 +39,5 @@ void cool(void)
         }
     }
 }
+
+// use windows cmd prompt to show it, fullscreen
