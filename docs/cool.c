@@ -12,11 +12,11 @@ void cool(void)
 {
     int x;
 
-    int i = 0, y = 0, z = 99, g;
+    int i = 0, y = 0, z = 190, g;
 
-    for(y = 0; y < 100; y ++)
+    for(y = 0; y < 191; y ++)
     {
-        for(x = 1; x < 100; x ++)
+        for(x = 1; x < 191; x ++)
         {
             for(i = 0; i < x; i ++)
             {  
@@ -25,9 +25,9 @@ void cool(void)
 
             printf("||||||||||");
             putchar('\n');
-            if(x == 99)
+            if(x == 190)
             {
-                for(z = 99; z > 1; z --)
+                for(z = 190; z > 0; z --)
                 {
                     for(g = 0; g < z; g ++)
                     {
