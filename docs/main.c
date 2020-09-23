@@ -35,9 +35,9 @@ void bars(void)
     
     // putting y * 2
     
-    for(y = 1; y < 101; y ++)
+    for(y = 1; y < 201; y ++)
     {
-        printf("The current value is %d\n", y);
+        printf("The current value of y*2 is %d\n", y * 2);
         for(bars = 1; bars <= y; bars ++)
         {
             putchar('|');
