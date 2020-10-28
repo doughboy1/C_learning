@@ -23,7 +23,10 @@ int main()
     {
         printf("Enter the name, artist, and the year that your song was made (N, A, D): \n");
         scanf("%s %s %d", (ptr + i) -> name, (ptr + i) -> artist, &(ptr + i) -> date);
+        (ptr + i) -> next = (ptr + i + 1);
     }
+    
+    head = ptr;
     
     for(i = 0; i < n; i ++)
     {
