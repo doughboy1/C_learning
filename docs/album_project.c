@@ -6,6 +6,7 @@ struct album
     char name[50];
     char artist[50];
     int date;
+    struct album *next;
     
 };
 
